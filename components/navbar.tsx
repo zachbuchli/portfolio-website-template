@@ -6,10 +6,9 @@ import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
 
 const navigation = [
-  { name: 'About', href: '#', current: true },
-  { name: 'Experience', href: '#', current: false},
-  { name: 'Projects', href: '#', current: false },
-  { name: 'Contact', href: '#', current: false },
+  { name: 'About', href: '#about', current: false },
+  { name: 'Projects', href: '#projects', current: false },
+  { name: 'Contact', href: '#contact', current: false },
 ]
 
 function classNames(...classes: any) {
