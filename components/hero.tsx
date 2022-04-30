@@ -2,6 +2,8 @@
 import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
+import Image from "next/image";
+import headshot from "../public/images/headshot.jpg";
 
 export default function Hero() {
     return (
@@ -20,7 +22,7 @@ export default function Hero() {
                             </h1>
                             <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                                 Passionate Software Developer with experience
-                                deliverying valuable software solutions that
+                                delivering valuable software solutions that
                                 scale.
                             </p>
                             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
@@ -47,9 +49,8 @@ export default function Hero() {
             </div>
             <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
                 <img
-                    className="h-56 w-100 object-cover sm:h-72 md:h-96"
-                    src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80"
-                    alt=""
+                    className="rounded-lg scale-75 lg:h-full"
+                    src="images/headshot.jpg"
                 />
             </div>
         </div>
