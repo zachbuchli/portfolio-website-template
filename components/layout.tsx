@@ -1,18 +1,18 @@
-import Navbar from './navbar'
-import Footer from './footer'
+import Navbar from "./navbar";
+import Footer from "./footer";
 
 type Props = {
-    children: React.ReactNode
-}
+    children: React.ReactNode;
+};
 
 export default function Layout({ children }: Props) {
     return (
         <>
-            <div className="w-screen h-screen flex-col">
+            <div className="flex flex-col min-h-screen">
                 <Navbar />
-                    <main>{children}</main>
+                <main className="flex-grow">{children}</main>
                 <Footer />
             </div>
         </>
-    )
+    );
 }
