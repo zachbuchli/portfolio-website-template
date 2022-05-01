@@ -8,7 +8,7 @@ export default function Home() {
     return (
         <>
             <Layout>
-                <div className="flex flex-col justify-center">
+                <div className="flex flex-col justify-center scroll-smooth">
                     <Hero />
                     <About />
                     <Projects />
