@@ -22,77 +22,31 @@ export default function About() {
                                         About Me
                                     </h2>
                                     <p className="mb-6 pb-2 lg:pb-0">
-                                        Lorem ipsum dolor, sit amet consectetur
-                                        adipisicing elit. Maxime, sint, repellat
-                                        vel quo quisquam accusamus in qui at
-                                        ipsa enim quibusdam illo laboriosam
-                                        omnis. Labore itaque illum distinctio
-                                        eum neque!
+                                        Hi! &#128075; My name is Zach Buchli and
+                                        I am a passionate software developer who
+                                        enjoys building complex software
+                                        solutions. I grew up in a small town in
+                                        northern Wisconsin and recently
+                                        graduated from the University of
+                                        Minnesota Duluth with a B.S. in Computer
+                                        Science. I am currently a Solutions
+                                        Developer at Cirrus Aircraft.
                                     </p>
 
-                                    <div className="flex flex-col md:flex-row md:justify-around xl:justify-start mb-6 mx-auto">
-                                        <p className="flex items-center mb-4 md:mb-2 lg:mb-0 mx-auto md:mx-0 xl:mr-20">
-                                            <svg
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                viewBox="0 0 512 512"
-                                                className="w-4 h-4 mr-2"
-                                            >
-                                                <path
-                                                    fill="currentColor"
-                                                    d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
-                                                ></path>
-                                            </svg>
-                                            Best team
-                                        </p>
-
-                                        <p className="flex items-center mb-4 md:mb-2 lg:mb-0 mx-auto md:mx-0 xl:mr-20">
-                                            <svg
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                viewBox="0 0 512 512"
-                                                className="w-4 h-4 mr-2"
-                                            >
-                                                <path
-                                                    fill="currentColor"
-                                                    d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
-                                                ></path>
-                                            </svg>
-                                            Best quality
-                                        </p>
-
-                                        <p className="flex items-center mb-2 lg:mb-0 mx-auto md:mx-0">
-                                            <svg
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                viewBox="0 0 512 512"
-                                                className="w-4 h-4 mr-2"
-                                            >
-                                                <path
-                                                    fill="currentColor"
-                                                    d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
-                                                ></path>
-                                            </svg>
-                                            Best experience
-                                        </p>
-                                    </div>
+                                    <div className="flex flex-col md:flex-row md:justify-around xl:justify-start mb-6 mx-auto"></div>
 
                                     <p>
-                                        Duis sagittis, turpis in ullamcorper
-                                        venenatis, ligula nibh porta dui, sit
-                                        amet rutrum enim massa in ante.
-                                        Curabitur in justo at lorem laoreet
-                                        ultricies. Nunc ligula felis, sagittis
-                                        eget nisi vitae, sodales vestibulum
-                                        purus. Vestibulum nibh ipsum, rhoncus
-                                        vel sagittis nec, placerat vel justo.
-                                        Duis faucibus sapien eget tortor
-                                        finibus, a eleifend lectus dictum. Cras
-                                        tempor convallis magna id rhoncus.
-                                        Suspendisse potenti. Nam mattis faucibus
-                                        imperdiet. Proin tempor lorem at neque
-                                        tempus aliquet. Phasellus at ex
-                                        volutpat, varius arcu id, aliquam
-                                        lectus. Vestibulum mattis felis quis ex
-                                        pharetra luctus. Etiam luctus sagittis
-                                        massa, sed iaculis est vehicula ut.
+                                        At Cirrus, I have been hard at work
+                                        designing and implementing an enterprise
+                                        integration platform using Microsoft
+                                        Azure as well as an IOT solution using
+                                        AWS. Outside of work I enjoy rock
+                                        climbing, mountain biking, and exploring
+                                        new programing languages and frameworks.
+                                        I am currently working on adding a blog
+                                        to my website where I can start sharing
+                                        what I have learned while building
+                                        software solutions on Azure.
                                     </p>
                                 </div>
                             </div>
