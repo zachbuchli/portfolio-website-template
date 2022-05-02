@@ -30,13 +30,13 @@ export default function Projects() {
                                         zachbuchli.com
                                     </h5>
                                     <p className="mb-4 pb-2">
-                                        I built this website using Next.js,
-                                        React, and Tailwindcss. My vision for
-                                        this website is to build a platform
-                                        where I can share cool projects I have
-                                        been working on and eventually publish
-                                        blog posts. This website is hosted with
-                                        Vercel.
+                                        I built this website using Typescript,
+                                        Next.js, React, and Tailwindcss. My
+                                        vision for this website is to build a
+                                        platform where I can share cool projects
+                                        I have been working on and eventually
+                                        publish blog posts. This website is
+                                        hosted with Vercel.
                                     </p>
                                     <a
                                         href="https://github.com/zachbuchli/website"
@@ -69,13 +69,11 @@ export default function Projects() {
                                 </div>
                                 <div className="p-6">
                                     <h5 className="font-bold text-lg mb-3">
-                                        A lonely bench
+                                        Maybe the React Geo Lab
                                     </h5>
                                     <p className="mb-4 pb-2">
-                                        Suspendisse in volutpat massa. Nulla
-                                        facilisi. Sed aliquet diam orci, nec
-                                        ornare metus semper sed. Integer
-                                        volutpat ornare erat sit amet rutrum.
+                                        {" "}
+                                        Unfinshed project
                                     </p>
                                     <a
                                         href="#!"

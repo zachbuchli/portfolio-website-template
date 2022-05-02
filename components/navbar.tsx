@@ -47,7 +47,7 @@ export default function Navbar() {
                                         href="/"
                                         className="text-2xl text-blue-500"
                                     >
-                                        Zach Buchli
+                                        zachbuchli.com
                                     </a>
                                 </div>
                                 <div className="hidden sm:block sm:ml-6">
