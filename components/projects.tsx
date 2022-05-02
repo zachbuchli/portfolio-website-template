@@ -17,7 +17,7 @@ export default function Projects() {
                                         data-mdb-ripple-color="light"
                                     >
                                         <img
-                                            src="https://mdbcdn.b-cdn.net/img/new/standard/city/002.webp"
+                                            src="/images/website.jpg"
                                             className="w-full"
                                         />
                                         <a href="#!">
@@ -27,21 +27,24 @@ export default function Projects() {
                                 </div>
                                 <div className="p-6">
                                     <h5 className="font-bold text-lg mb-3">
-                                        White city
+                                        zachbuchli.com
                                     </h5>
                                     <p className="mb-4 pb-2">
-                                        Ut pretium ultricies dignissim. Sed sit
-                                        amet mi eget urna placerat vulputate. Ut
-                                        vulputate est non quam dignissim
-                                        elementum. Donec a ullamcorper diam.
+                                        I built this website using Next.js,
+                                        React, and Tailwindcss. My vision for
+                                        this website is to build a platform
+                                        where I can share cool projects I have
+                                        been working on and eventually publish
+                                        blog posts. This website is hosted with
+                                        Vercel.
                                     </p>
                                     <a
-                                        href="#!"
+                                        href="https://github.com/zachbuchli/website"
                                         data-mdb-ripple="true"
                                         data-mdb-ripple-color="light"
                                         className="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
                                     >
-                                        Read more
+                                        GitHub
                                     </a>
                                 </div>
                             </div>

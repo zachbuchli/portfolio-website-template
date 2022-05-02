@@ -44,9 +44,9 @@ export default function About() {
                                         climbing, mountain biking, and exploring
                                         new programing languages and frameworks.
                                         I am currently working on adding a blog
-                                        to my website where I can start sharing
-                                        what I have learned while building
-                                        software solutions on Azure.
+                                        to my website where I can share what I
+                                        have learned while building software
+                                        solutions on Azure.
                                     </p>
                                 </div>
                             </div>
