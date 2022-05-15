@@ -47,7 +47,7 @@ export default function Navbar() {
                                         href="/"
                                         className="text-2xl text-blue-500"
                                     >
-                                        zachbuchli.com
+                                        Portfolio.com
                                     </a>
                                 </div>
                                 <div className="hidden sm:block sm:ml-6">
@@ -77,7 +77,7 @@ export default function Navbar() {
                             <div className="absolute inset-y-0 right-0 flex items-center space-x-5 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                                 <a
                                     className=""
-                                    href="https://github.com/zachbuchli"
+                                    href="https://github.com/"
                                 >
                                     <AiFillGithub
                                         style={{
@@ -86,7 +86,7 @@ export default function Navbar() {
                                         }}
                                     />
                                 </a>
-                                <a href="https://www.linkedin.com/in/zach-buchli/">
+                                <a href="https://www.linkedin.com/">
                                     <AiFillLinkedin
                                         style={{
                                             height: "30px",

@@ -7,7 +7,7 @@ export default function About() {
                         <div className="grow-0 shrink-0 basis-auto w-full lg:w-5/12 mb-12 lg:mb-0">
                             <div className="flex lg:py-12">
                                 <img
-                                    src="/images/headshot.jpg"
+                                    src="/images/free-headshot.jpg"
                                     className="w-full rounded-lg shadow-lg"
                                     id="cta-img-nml-50"
                                     alt=""
@@ -22,31 +22,12 @@ export default function About() {
                                         About Me
                                     </h2>
                                     <p className="mb-6 pb-2 lg:pb-0">
-                                        Hi! &#128075; My name is Zach Buchli and
-                                        I am a passionate software developer who
-                                        enjoys building complex software
-                                        solutions. I grew up in a small town in
-                                        northern Wisconsin and recently
-                                        graduated from the University of
-                                        Minnesota Duluth with a B.S. in Computer
-                                        Science. I am currently a Solutions
-                                        Developer at Cirrus Aircraft.
-                                    </p>
+                                    Ex harum nulla aut galisum voluptatibus est ipsam pariatur qui repellat repudiandae. Aut soluta sunt qui nulla accusantium aut facilis cupiditate et asperiores dicta est officia molestias quo dolores cumque. Aut quia asperiores sed maxime fugiat ea nesciunt facere a quia iste rem libero autem nam tempore atque qui sunt deserunt. Id omnis dolores aut porro pariatur et blanditiis ducimus qui perspiciatis saepe non explicabo fugit id laudantium atque.                                     </p>
 
                                     <div className="flex flex-col md:flex-row md:justify-around xl:justify-start mb-6 mx-auto"></div>
 
                                     <p>
-                                        At Cirrus, I have been hard at work
-                                        designing and implementing an enterprise
-                                        integration platform using Microsoft
-                                        Azure as well as an IOT solution using
-                                        AWS. Outside of work I enjoy rock
-                                        climbing, mountain biking, and exploring
-                                        new programing languages and frameworks.
-                                        I am currently working on adding a blog
-                                        to my website where I can share what I
-                                        have learned while building software
-                                        solutions on Azure.
+                                    Non enim natus et perspiciatis dolorem a magni veritatis. Sit fuga laborum aut Quis recusandae a nobis eaque ut facilis tenetur. Cum soluta blanditiis ea iste repudiandae 33 veritatis omnis et velit necessitatibus sit modi voluptates ut doloremque fugit non perferendis perferendis.
                                     </p>
                                 </div>
                             </div>

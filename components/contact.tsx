@@ -12,19 +12,17 @@ export default function Contact() {
                                 Get in touch
                             </h2>
                             <p className="text-gray-500 mb-6">
-                                Feel free to reach out! I am always interested
-                                in chatting about building software, rock
-                                climbing, and mountain biking.
+                            Ex harum nulla aut galisum voluptatibus est ipsam pariatur qui repellat repudiandae. Aut soluta sunt qui nulla accusantium aut facilis cupiditate et asperiores dicta est officia molestias quo dolores cumque. Aut quia asperiores sed maxime fugiat ea nesciunt facere a quia iste rem libero autem nam tempore atque qui sunt deserunt. Id omnis dolores aut porro pariatur et blanditiis ducimus qui perspiciatis saepe non explicabo fugit id laudantium atque. 
                             </p>
                             <p className="text-gray-500 mb-2">
                                 Location: United States
                             </p>
 
                             <a
-                                href="mailto: zachbuchli@gmail.com"
+                                href="mailto: insert-email@email.com"
                                 className="text-blue-500 mb-2"
                             >
-                                Email
+                                insert_email@email.com
                             </a>
                         </div>
                         <div className="grow-0 shrink-0 basis-auto mb-12 md:mb-0 w-full md:w-6/12 px-3 lg:px-6">
