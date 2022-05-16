@@ -4,6 +4,7 @@ import { Fragment } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { BellIcon, MenuIcon, XIcon } from "@heroicons/react/outline";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import Link from "next/link";
 
 const navigation = [
     { name: "About", href: "#about", current: false },
@@ -43,12 +44,11 @@ export default function Navbar() {
                             </div>
                             <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                                 <div className="flex-shrink-0 flex items-center">
-                                    <a
-                                        href="/"
-                                        className="text-2xl text-blue-500"
-                                    >
-                                        Portfolio.com
-                                    </a>
+                                    <Link href="/">
+                                        <a className="text-2xl text-blue-500">
+                                            Portfolio.com
+                                        </a>
+                                    </Link>
                                 </div>
                                 <div className="hidden sm:block sm:ml-6">
                                     <div className="flex space-x-4">
@@ -75,10 +75,7 @@ export default function Navbar() {
                                 </div>
                             </div>
                             <div className="absolute inset-y-0 right-0 flex items-center space-x-5 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                                <a
-                                    className=""
-                                    href="https://github.com/"
-                                >
+                                <a className="" href="https://github.com/">
                                     <AiFillGithub
                                         style={{
                                             height: "30px",

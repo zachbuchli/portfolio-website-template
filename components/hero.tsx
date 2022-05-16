@@ -4,6 +4,7 @@ import { Popover, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import Image from "next/image";
 import headshot from "../public/images/headshot.jpg";
+import Link from "next/link";
 
 export default function Hero() {
     return (
@@ -21,25 +22,25 @@ export default function Hero() {
                                 </span>
                             </h1>
                             <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                            Ex harum nulla aut galisum voluptatibus est ipsam pariatur qui repellat repudiandae. 
-                            Aut soluta sunt qui nulla accusantium aut facilis cupiditate et asperiores dicta est.
+                                Ex harum nulla aut galisum voluptatibus est
+                                ipsam pariatur qui repellat repudiandae. Aut
+                                soluta sunt qui nulla accusantium aut facilis
+                                cupiditate et asperiores dicta est.
                             </p>
                             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                                 <div className="rounded-md shadow">
-                                    <a
-                                        href="#projects"
-                                        className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-700 hover:bg-blue-700 md:py-4 md:text-lg md:px-10"
-                                    >
-                                        Projects
-                                    </a>
+                                    <Link href="#about">
+                                        <a className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-700 hover:bg-blue-700 md:py-4 md:text-lg md:px-10">
+                                            Projects
+                                        </a>
+                                    </Link>
                                 </div>
                                 <div className="mt-3 sm:mt-0 sm:ml-3">
-                                    <a
-                                        href="#contact"
-                                        className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-700 bg-indigo-100 hover:bg-blue-200 md:py-4 md:text-lg md:px-10"
-                                    >
-                                        Contact
-                                    </a>
+                                    <Link href="#contact">
+                                        <a className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-700 bg-indigo-100 hover:bg-blue-200 md:py-4 md:text-lg md:px-10">
+                                            Contact
+                                        </a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
