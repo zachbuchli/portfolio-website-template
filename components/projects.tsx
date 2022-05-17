@@ -4,7 +4,7 @@ export default function Projects() {
             <div id="projects" className="container my-24 px-6 mx-auto">
                 <section className="mb-32 text-gray-800 text-center">
                     <h2 className="text-4xl font-bold mb-12 pb-4 text-center text-white">
-                        Projects I have been working on
+                        Latest Projects
                     </h2>
 
                     <div className="grid lg:grid-cols-3 gap-6 xl:gap-x-12">
@@ -30,7 +30,7 @@ export default function Projects() {
                                         High Rise
                                     </h5>
                                     <p className="mb-4 pb-2">
-                                    Curabitur tristique, mi a mollis
+                                        Curabitur tristique, mi a mollis
                                         sagittis, metus felis mattis arcu, non
                                         vehicula nisl dui quis diam. Mauris ut
                                         risus eget massa volutpat feugiat.
